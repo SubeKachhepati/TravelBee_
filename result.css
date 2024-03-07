@@ -1,0 +1,271 @@
+:root {
+    --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+      "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+      "Source Han Sans CN", sans-serif;
+  }
+  
+  .main-container {
+    overflow: hidden;
+  }
+  
+  .main-container,
+  .main-container * {
+    box-sizing: border-box;
+  }
+  
+  input,
+  select,
+  textarea,
+  button {
+    outline: 0;
+  }
+  
+  .main-container {
+    position: relative;
+    width: 1512px;
+    height: 1502px;
+    margin: 0 auto;
+    background: #ffffff;
+    overflow: hidden;
+  }
+  .flex-row-cf {
+    position: relative;
+    width: 672px;
+    height: 106px;
+    margin: 116px 0 0 85px;
+    z-index: 2;
+  }
+  .rectangle {
+    position: absolute;
+    width: 193px;
+    height: 54px;
+    top: 0;
+    left: 28px;
+    background: url(./assets/images/d3d0b6e1-33bd-43f8-a135-2754aef72c52.png)
+      no-repeat center;
+    background-size: cover;
+    z-index: 2;
+  }
+  .recommended-for-you {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 79px;
+    top: 27px;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72.614px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 1;
+  }
+  .flex-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1347px;
+    height: 342px;
+    margin: 53px 0 0 83px;
+    z-index: 5;
+  }
+  .rectangle-1 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 338px;
+    background: #d9d9d9;
+    z-index: 3;
+    border-radius: 17px;
+  }
+  .rectangle-2 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 338px;
+    background: #d9d9d9;
+    z-index: 4;
+    border-radius: 17px;
+  }
+  .rectangle-3 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 339px;
+    background: #d9d9d9;
+    z-index: 5;
+    border-radius: 17px;
+  }
+  .flex-row-4 {
+    position: relative;
+    width: 1239px;
+    height: 41px;
+    margin: 16px 0 0 106px;
+    z-index: 8;
+  }
+  .basantapur {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 463px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 7;
+  }
+  .boudhanath-stupa {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 7px;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 6;
+  }
+  .pashupatinath-temple {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 7px;
+    left: 931px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 8;
+  }
+  .popular-destinations {
+    display: block;
+    position: relative;
+    height: 79px;
+    margin: 171px 0 0 106px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 72.614px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 10;
+  }
+  .flex-row-c {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 1347px;
+    height: 342px;
+    margin: 29px 0 0 106px;
+    z-index: 13;
+  }
+  .rectangle-5 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 338px;
+    background: #d9d9d9;
+    z-index: 11;
+    border-radius: 17px;
+  }
+  .rectangle-6 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 338px;
+    background: #d9d9d9;
+    z-index: 12;
+    border-radius: 17px;
+  }
+  .rectangle-7 {
+    flex-shrink: 0;
+    position: relative;
+    width: 413px;
+    height: 338px;
+    background: #d9d9d9;
+    z-index: 13;
+    border-radius: 17px;
+  }
+  .flex-row-b {
+    position: relative;
+    width: 1297px;
+    height: 34px;
+    margin: 25px 0 0 129px;
+    z-index: 16;
+  }
+  .nagarkot {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 0;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 14;
+  }
+  .poon-hill {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 463px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 15;
+  }
+  .kathmandu-durbar-square {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: absolute;
+    height: 34px;
+    top: 0;
+    left: 931px;
+    color: #000000;
+    font-family: Inter, var(--default-font-family);
+    font-size: 31px;
+    font-weight: 600;
+    line-height: 34px;
+    text-align: left;
+    white-space: nowrap;
+    z-index: 16;
+  }
+  
